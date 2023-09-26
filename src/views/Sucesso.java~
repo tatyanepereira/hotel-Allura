@@ -21,6 +21,9 @@ public class Sucesso extends JDialog {
 
 	private final JPanel contentPanel = new JPanel();
 
+	/**
+	 * Launch the application.
+	 */
 	public static void main(String[] args) {
 		try {
 			Sucesso dialog = new Sucesso();
@@ -31,7 +34,9 @@ public class Sucesso extends JDialog {
 		}
 	}
 
-
+	/**
+	 * Create the dialog.
+	 */
 	public Sucesso() {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Sucesso.class.getResource("/imagenes/aH-40px.png")));
 		setBounds(100, 100, 394, 226);

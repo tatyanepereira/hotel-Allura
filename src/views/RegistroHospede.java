@@ -61,9 +61,7 @@ public class RegistroHospede extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+
 	public RegistroHospede(Integer idReserva) {
 		
 		this.hospedeController = new HospedeController();

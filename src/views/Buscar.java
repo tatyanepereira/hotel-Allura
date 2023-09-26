@@ -64,9 +64,7 @@ public class Buscar extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+
 	public Buscar() {
 		this.hospedeController = new HospedeController();
 		this.reservasController = new ReservasController();

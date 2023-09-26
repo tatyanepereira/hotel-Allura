@@ -49,9 +49,6 @@ public class ReservasView extends JFrame {
 	
 	private ReservasController reservasController = new ReservasController();
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -65,9 +62,7 @@ public class ReservasView extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+
 	public ReservasView() {
 		super("Reserva");
 		setIconImage(Toolkit.getDefaultToolkit().getImage(ReservasView.class.getResource("/imagenes/aH-40px.png")));
